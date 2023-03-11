@@ -1,0 +1,33 @@
+.home{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    height:80vh;
+    width:100%;
+   background-repeat:no-repeat;
+}
+
+.home p{
+    margin:0px;
+    padding: 0px;
+}
+
+.home p:first-child{
+    font-size: 50px;
+}
+
+.home p:nth-child(2){
+    font-size:100px;
+}
+
+.home p:nth-child(3){
+    font-size:30px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+

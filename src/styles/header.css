@@ -1,0 +1,54 @@
+.moi{
+    position:absolute;
+    left:0px;
+
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    height:50px;
+    background-color:black;
+    color: black;
+}
+
+.header a{
+    text-decoration:none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.activeLink{
+    color: red!important;
+    border-bottom: 1px solid red;
+    margin:0px;
+    padding: 0px;
+    height:20px;
+}
+
+.fa-moon{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+  
+    position:absolute;
+    right: 10px;
+    display:none;
+    background-color: black;
+    color: yellow;
+
+}
+
+.fa-sun{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+  
+    position:absolute;
+    right: 10px;
+    background-color: yellow;
+ 
+}

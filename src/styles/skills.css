@@ -1,0 +1,45 @@
+.skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.skills img{
+    width:63px;
+    height:60px; 
+    padding: 10px;
+}
+
+.skills article{
+  padding: 5px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+
+}
+
+.frontend_skills, .backend_skills, .autres_environements{
+    display:flex; 
+}
+
+.skills article{
+    margin:10px;
+    border-radius:15px;
+}
+
+.skills article p{
+    color: #ff3644;
+    font-weight:600;
+}
+
+.frontend_skills P, .backend_skills P, .autres_environements P{
+    text-transform:uppercase;
+}
+
+.skills h2 {
+    margin:0px;
+}
