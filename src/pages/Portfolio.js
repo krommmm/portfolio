@@ -11,7 +11,7 @@ const Portfolio = () => {
 	return (
 		<>
 			<div className="portfolio">
-				<h2>Voici quelques projets sélectionnés</h2>
+				<h2 className="button">Voici quelques projets sélectionnés</h2>
 				<div className="projets">
 					<a href="https://bookitb.netlify.app/">
 						<article>

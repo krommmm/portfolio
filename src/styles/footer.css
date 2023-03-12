@@ -1,13 +1,18 @@
 .footer{
     display:flex;
-    align-items: center;
-    justify-content: center;
+   align-items:center;
+    
     flex-direction: column;
 
     line-height: 0px;
     margin:0px;
     padding: 0px;
+   
     
     background-color: black;
     color: white;
+}
+
+.footer p{
+    font-size:12px;
 }

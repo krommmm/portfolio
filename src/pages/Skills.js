@@ -19,7 +19,7 @@ const Skills = () => {
 	return (
 		<>
 			<div className="skills">
-				<h2>Front-end</h2>
+				<h2 className="button">Front-end</h2>
 				<div className="frontend_skills">
 					<article>
 						<img src={html} alt="html_icon" />
@@ -46,7 +46,7 @@ const Skills = () => {
 						<p>REDUX</p>
 					</article>
 				</div>
-				<h2>Back-end</h2>
+				<h2 className="button">Back-end</h2>
 				<div className="backend_skills">
 					<article>
 						<img src={nodejs} alt="nodejs_icon" />
@@ -58,7 +58,7 @@ const Skills = () => {
 						<p>mongodb</p>
 					</article>
 				</div>
-				<h2>Autres environements</h2>
+				<h2 className="button">Autres environements</h2>
 				<div className="autres_environements">
 					<article>
 						<img src={git} alt="git_icon" />
