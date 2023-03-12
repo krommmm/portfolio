@@ -6,7 +6,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 
 const Header = () => {
-	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
+	const [{isDark }, toggleTheme] = useContext(ThemeContext);
 
 	var classNameButton = isDark ? 'fa-solid fa-moon' : 'fa-regular fa-sun';
 
@@ -44,7 +44,7 @@ const Header = () => {
 						isActive ? 'activeLink' : 'undefined'
 					}
 				>
-					Contact G
+					Contact 
 				</NavLink>
 				<div  onClick={toggleTheme}>
 					<i className={classNameButton}></i>
