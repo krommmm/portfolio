@@ -44,7 +44,7 @@ const Header = () => {
 						isActive ? 'activeLink' : 'undefined'
 					}
 				>
-					Contact
+					Contact G
 				</NavLink>
 				<div  onClick={toggleTheme}>
 					<i className={classNameButton}></i>
