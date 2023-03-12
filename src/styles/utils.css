@@ -4,11 +4,9 @@ html,body{
     padding: 0px;
     
 }
-.home{
 
-}
 .home, .skills, .portfolio, .contact{
-    min-height: 80vh;
+    min-height: 83vh;
     background-color: rgb(47,121,231);
 }
 
