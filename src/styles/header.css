@@ -33,22 +33,22 @@
     padding: 15px;
     border: 1px solid black;
     border-radius: 50%;
-  
     position:absolute;
+  
     right: 10px;
-    display:none;
+ 
     background-color: black;
     color: yellow;
-
 }
 
 .fa-sun{
-    padding: 15px;
+    padding: 15px; 
     border: 1px solid black;
     border-radius: 50%;
-  
-    position:absolute;
+  position:absolute;
+   
     right: 10px;
     background-color: yellow;
- 
+
 }
+

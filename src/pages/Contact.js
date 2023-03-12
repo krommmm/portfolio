@@ -1,7 +1,14 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../context/Theme'
+
+
+
+
 const Contact = () => {
+	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 	return (
 		<>
-			<div className="contact">
+			<div className="contact" style={{backgroundColor:theme.backgroundColor, color:theme.color}}>
 				<div className="contact_container">
 					<i className="fa-solid fa-phone"></i>
 					<p>+33 (06) 50 47 41 78</p>

@@ -15,10 +15,17 @@ import vscode from '../assets/vscode.png';
 import lighthouse from '../assets/lighthouse.png';
 import wave from '../assets/wavelogo.svg';
 
+
+import { useContext } from 'react';
+import { ThemeContext } from '../context/Theme'
+	
+
+
 const Skills = () => {
+	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 	return (
 		<>
-			<div className="skills">
+			<div className="skills" style={{backgroundColor:theme.backgroundColor, color:theme.color}}>
 				<h2 className="button">Front-end</h2>
 				<div className="frontend_skills">
 					<article>

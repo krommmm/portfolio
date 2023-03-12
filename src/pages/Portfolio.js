@@ -7,10 +7,17 @@ import groupomania from '../assets/projets/6_groupomania.png';
 import vin from '../assets/projets/7_vin.png';
 import gw from '../assets/projets/8_gw.png';
 
+
+import { useContext } from 'react';
+import { ThemeContext } from '../context/Theme'
+
+	
+
 const Portfolio = () => {
+	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 	return (
 		<>
-			<div className="portfolio">
+			<div className="portfolio" style={{backgroundColor:theme.backgroundColor, color:theme.color}}>
 				<h2 className="button">Voici quelques projets sélectionnés</h2>
 				<div className="projets">
 					<a href="https://bookitb.netlify.app/">

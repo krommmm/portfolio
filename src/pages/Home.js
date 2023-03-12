@@ -1,10 +1,14 @@
-import { NavLink } from 'react-router-dom';
 
+import { NavLink } from 'react-router-dom';
+import { useContext } from 'react';
+import { ThemeContext } from '../context/Theme';
 
 const Home = () => {
+	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
+	
 	return (
 		<>
-			<div className="home">
+			<div className="home" style={{backgroundColor:theme.backgroundColor, color:theme.color}}>
 				<p>Hello</p>
 				<p>I'm web developer</p>
 				<p>Front-end js/react</p>
