@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/Theme';
 
 const Home = () => {
-	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
+	const [{ theme }] = useContext(ThemeContext);
 	
 	return (
 		<>

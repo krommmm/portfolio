@@ -5,7 +5,7 @@ import { ThemeContext } from '../context/Theme'
 
 
 const Contact = () => {
-	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
+	const [{ theme }] = useContext(ThemeContext);
 	return (
 		<>
 			<div className="contact" style={{backgroundColor:theme.backgroundColor, color:theme.color}}>

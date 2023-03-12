@@ -14,7 +14,7 @@ import { ThemeContext } from '../context/Theme'
 	
 
 const Portfolio = () => {
-	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
+	const [{ theme }] = useContext(ThemeContext);
 	return (
 		<>
 			<div className="portfolio" style={{backgroundColor:theme.backgroundColor, color:theme.color}}>
