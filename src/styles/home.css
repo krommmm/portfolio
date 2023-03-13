@@ -26,8 +26,37 @@
     margin-bottom: 40px;
 }
 
+@media screen and (max-width:1291px){
+    .home{
+        text-align:center;
+    }
+    .home p:nth-child(2){
+        font-size:60px;
+    }
+
+    .home p:nth-child(3){
+        font-size:30px;
+        margin-bottom: 34px;
+        font-weight: 600;
+    }
+}
 
 
+@media screen and (max-width: 600px) {
+    .home p:first-child{
+        font-size: 30px;
+    }
+    
+    .home p:nth-child(2){
+        font-size:34px;
+    }
+    
+    .home p:nth-child(3){
+        font-size:30px;
+        margin-bottom: 34px;
+        font-weight: 600;
+    }
+}
 
 
 

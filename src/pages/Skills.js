@@ -22,7 +22,7 @@ import { ThemeContext } from '../context/Theme'
 
 
 const Skills = () => {
-	const [{ theme }] = useContext(ThemeContext);
+	const [{ theme }] = useContext(ThemeContext); 
 	return (
 		<>
 			<div className="skills" style={{backgroundColor:theme.backgroundColor, color:theme.color}}>

@@ -24,6 +24,7 @@
 
 .frontend_skills, .backend_skills, .autres_environements{
     display:flex; 
+    justify-content:center;
 }
 
 .skills article{
@@ -42,4 +43,16 @@
 
 .skills h2 {
     margin:15px;
+}
+
+@media screen and (max-width:1291px){
+    .frontend_skills, .backend_skills, .autres_environements{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px){
+    .frontend_skills, .backend_skills, .autres_environements{
+        flex-wrap: wrap;
+    }
 }
