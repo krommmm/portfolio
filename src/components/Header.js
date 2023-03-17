@@ -2,13 +2,12 @@ import { NavLink } from 'react-router-dom';
 import '../styles/index.css';
 import React from 'react';
 
-import { useContext } from 'react';
-import { ThemeContext } from '../context/Theme';
+
 
 const Header = () => {
-	const [{isDark }, toggleTheme] = useContext(ThemeContext);
+	
 
-	var classNameButton = isDark ? 'fa-solid fa-moon' : 'fa-regular fa-sun';
+
 
 	return (
 		<>
@@ -46,9 +45,7 @@ const Header = () => {
 				>
 					Contact 
 				</NavLink>
-				<div  onClick={toggleTheme}>
-					<i className={classNameButton}></i>
-				</div>
+				
 			</div>
 		</>
 	);

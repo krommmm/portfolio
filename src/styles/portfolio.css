@@ -1,76 +1,91 @@
-.portfolio{
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    align-items: center;
+.portfolio {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #eaeaea;
 }
 
-.portfolio .projets article img{
-   width: 100%;
-   height: 100%;
-   
+.portfolio .portfolio_container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #eee;
+	width: 70vw;
+	height: 100%;
+	border-radius: 3px;
 }
 
-.portfolio .projets article{
-    background-color: white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    margin:10px;
-    padding: 3px;
-    transition:1s;
-    width: 300px;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-  
+.portfolio .projets article img {
+	width: 100%;
+	height: 100%;
+	filter: brightness(0.89);
+	border-radius: 3px;
 }
 
-.portfolio .projets{
-    
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
+.portfolio .projets article {
+	background-color: white;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	margin: 10px;
+	padding: 10px;
+	transition: 1s;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.portfolio a{
-    margin: 10px;
+.portfolio .projets {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
 }
 
-.portfolio .projets article:hover{
-    transform: scale(1.2);
+.portfolio a {
+	margin: 10px;
 }
 
-.portfolio .projets a{
-    text-decoration: none;
-    color: inherit;
-    font-weight:600;
-
+.portfolio .projets article:hover {
+	transform: scale(1.2);
 }
 
-@media screen and (max-width:1291px){
-    .portfolio .projets article{
-        filter: grayscale(100%);
-        width: 250px;
-    }
-
-    .portfolio .projets article:hover{
-        filter:grayScale(0%);
-    }
+.portfolio .projets a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: 600;
 }
 
-@media screen and (max-width: 600px){
-    .portfolio{
-        padding: 16px;
-    }
+.portfolio h2 {
+	font-size: 15px;
+}
 
-    .portfolio .projets article{
-        filter: grayscale(100%);
-        width: 250px;
-    }
+@media screen and (max-width: 1291px) {
+	.portfolio .projets article {
+		filter: grayscale(100%);
+		width: 250px;
+	}
 
-    .portfolio .projets article:hover{
-        transform: scale(1.2);
-        filter: grayscale(0%);
-       
-    }
+	.portfolio .projets article:hover {
+		filter: grayScale(0%);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.portfolio {
+		padding: 16px;
+	}
+
+	.portfolio .projets article {
+		filter: grayscale(100%);
+		width: 250px;
+	}
+
+	.portfolio .projets article:hover {
+		transform: scale(1.2);
+		filter: grayscale(0%);
+	}
 }
