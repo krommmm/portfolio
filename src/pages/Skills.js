@@ -1,3 +1,4 @@
+
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import sass from '../assets/sass.png';
@@ -16,11 +17,11 @@ const Skills = () => {
 	useEffect(()=>{
 		var frontend_skills_nb = document.querySelector('.frontend_skills').childElementCount;
 		
-		for(var i=1;i<frontend_skills_nb+1;i++){
-			var number = (i)*0.1;
-			document.querySelector(`.article_${i}`).style.animationDelay=`${number}s`;
-
+		for(var i=0;i<frontend_skills_nb;i++){
+			var number = (i+1)*0.1;
+		document.querySelector(".frontend_skills").childNodes[i].style.animationDelay=`${number}s`;
 		}
+	
 	},[]);
 
 
@@ -44,37 +45,37 @@ I'm open to <strong className="green">Job</strong> opportunities where I can con
 				<div className="skills_container">
 					<h2 className="titlePage">What i do </h2>
 					<div className="frontend_skills">
-						<article className="article_1">
+						<article >
 							<img src={html} alt="html_icon" />
 							<p>HTML</p>
 						</article>
-						<article className="article_2">
+						<article >
 							<img src={css} alt="css_icon" />
 							<p>CSS</p>
 						</article>
-						<article className="article_3">
+						<article >
 							<img src={sass} alt="sass_icon" />
 							<p>SASS</p>
 						</article>
-						<article className="article_4">
+						<article >
 							<img src={js} alt="js_icon" />
 							<p>JS</p>
 						</article>
-						<article className="article_5">
+						<article >
 							<img src={react} alt="react_icon" />
 							<p>REACT</p>
 						</article>
-						<article className="article_6">
+						<article >
 							<img src={redux} alt="redux_icon" />
 							<p>REDUX</p>
 						</article>
 
-						<article className="article_7">
+						<article >
 							<img src={nodejs} alt="nodejs_icon" />
 							<p>NODEJS</p>
 						</article>
 
-						<article className="article_8">
+						<article >
 							<img src={mongodb} alt="mongodb_icon" />
 							<p>mongodb</p>
 						</article>

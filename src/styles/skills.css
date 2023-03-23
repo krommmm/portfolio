@@ -72,14 +72,7 @@
 	text-transform: uppercase;
 }
 
-.skills .article_1,
-.article_2,
-.article_3,
-.article_4,
-.article_5,
-.article_6,
-.article_7,
-.article_8 {
+.skills article {
 	animation-name: article_skills;
 	animation-duration: 400ms;
 	animation-fill-mode: forwards;
