@@ -5,11 +5,14 @@
 
 .header {
 	display: flex;
-	justify-content: center;
+
 	padding: 10px;
 	height: 50px;
-	background-color: white;
-	color: black;
+	background: radial-gradient(88.5% 100% at 50% 100%, #278849 0%, #1b6535 100%);
+	/*Initial color: #1b6535*/
+	color: white;
+	position:relative;
+	justify-content:center;
 }
 
 .header a {
@@ -17,11 +20,13 @@
 	padding: 10px;
 	color: black;
 	font-weight: 600;
+	font-size: 19px;
+	margin-left:35px;
 }
 
 .activeLink {
-	color: red !important;
-	border-bottom: 1px solid red;
+	color: white !important;
+	border-bottom: 1px solid white;
 	margin: 0px;
 	padding: 0px;
 	height: 20px;
@@ -67,6 +72,11 @@ color: orange;
 
 	.fa-sun, .fa-moon{
 		font-size: 15px;
+	}
+
+	.header a {
+	
+		margin-left:15px;
 	}
 }
 

@@ -3,7 +3,7 @@
 }
 
 .contact i {
-	color: rgb(202, 27, 27);
+	color: #1b6535;
 }
 
 .contact {
@@ -19,8 +19,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #eee;
-    width:70vw;
+	width: 1000px;
     height:100%;
     border-radius:3px;
     flex-wrap:wrap;
@@ -43,4 +42,10 @@
 
 .contact .contact_container i{
    margin:10px;
+}
+
+@media screen and (max-width:1001px){
+	.contact_2{
+		width:100%;
+	}
 }

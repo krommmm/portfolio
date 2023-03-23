@@ -6,91 +6,83 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import nodejs from '../assets/nodejs.png';
 import mongodb from '../assets/mdb.webp';
+import { useEffect } from "react";
 
-import git from '../assets/git.png';
-import github from '../assets/github.png';
-import postman from '../assets/postman.png';
-import npm from '../assets/npm.png';
-import vscode from '../assets/vscode.png';
-import lighthouse from '../assets/lighthouse.png';
-import wave from '../assets/wavelogo.svg';
+
 
 const Skills = () => {
+
+//Changer le nombre de skills en conséquence lors de l'ajout (8)
+	useEffect(()=>{
+		var frontend_skills_nb = document.querySelector('.frontend_skills').childElementCount;
+		
+		for(var i=1;i<frontend_skills_nb+1;i++){
+			var number = (i)*0.1;
+			document.querySelector(`.article_${i}`).style.animationDelay=`${number}s`;
+
+		}
+	},[]);
+
+
 	return (
 		<>
 			<div className="skills">
+				<div className="skills_left">
+				<h2 className="titlePage">Get to know me! </h2>
+				<div className="skills_text">
+					<p>
+
+I'm a <strong className="green">Frontend Web Developer</strong> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong className="green">Projects</strong> section.
+
+I also like sharing content related to the stuff that I have learned over the years in <strong className="green">Web Development</strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming
+
+I'm open to <strong className="green">Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong className="green">contact</strong> me.
+</p>
+				</div>
+				</div>
+				<div className="skills_right">
 				<div className="skills_container">
 					<h2 className="titlePage">What i do </h2>
 					<div className="frontend_skills">
-						<article>
+						<article className="article_1">
 							<img src={html} alt="html_icon" />
 							<p>HTML</p>
 						</article>
-						<article>
+						<article className="article_2">
 							<img src={css} alt="css_icon" />
 							<p>CSS</p>
 						</article>
-						<article>
+						<article className="article_3">
 							<img src={sass} alt="sass_icon" />
 							<p>SASS</p>
 						</article>
-						<article>
+						<article className="article_4">
 							<img src={js} alt="js_icon" />
 							<p>JS</p>
 						</article>
-						<article>
+						<article className="article_5">
 							<img src={react} alt="react_icon" />
 							<p>REACT</p>
 						</article>
-						<article>
+						<article className="article_6">
 							<img src={redux} alt="redux_icon" />
 							<p>REDUX</p>
 						</article>
-					</div>
 
-					<div className="backend_skills">
-						<article>
+						<article className="article_7">
 							<img src={nodejs} alt="nodejs_icon" />
 							<p>NODEJS</p>
 						</article>
 
-						<article>
+						<article className="article_8">
 							<img src={mongodb} alt="mongodb_icon" />
 							<p>mongodb</p>
 						</article>
 					</div>
-
-					<div className="autres_environements">
-						<article>
-							<img src={git} alt="git_icon" />
-							<p>git</p>
-						</article>
-						<article>
-							<img src={github} alt="github_icon" />
-							<p>github</p>
-						</article>
-						<article>
-							<img src={npm} alt="npm_icon" />
-							<p>npm</p>
-						</article>
-						<article>
-							<img src={vscode} alt="vsc_icon" />
-							<p>vsccode</p>
-						</article>
-						<article>
-							<img src={lighthouse} alt="lighthouse_icon" />
-							<p>lighthouse</p>
-						</article>
-						<article>
-							<img src={postman} alt="postman_icon" />
-							<p>postman</p>
-						</article>
-						<article>
-							<img src={wave} alt="wave_icon" />
-							<p>wave</p>
-						</article>
-					</div>
 				</div>
+				</div>
+
+				
 			</div>
 		</>
 	);

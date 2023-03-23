@@ -7,11 +7,11 @@ const Home = () => {
 	return (
 		<>
 			<div className="home" >
-				<p>Hello</p>
-				<p>I'm web developer</p>
-				<p>Front-end js/react</p>
+				<p><span class="dropFromLeft">Hi! I'm </span> <span class="green dropFromTop">Thibault Boutaud</span></p>
+				<p><span class="dropFromLeft">Web</span> <span class="dropFromRight">developer</span></p>
+				<p><span class="dropFromLeft">Front-end javascript</span> <span class="green"><span class="dropFromBot">&</span></span> <span class="dropFromRight">react</span></p>
 				<NavLink to="/Portfolio">
-					<button type="button" className="button">Voir mon travail</button>
+					<button type="button" className="button">View my work</button>
 				</NavLink>
 			</div>
 		</>
