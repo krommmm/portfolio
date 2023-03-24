@@ -80,3 +80,16 @@ color: orange;
 	}
 }
 
+@media screen and (max-width:428px){
+	.header a{
+		font-size:16px;
+		margin-left:0px;
+	}
+}
+
+/*
+margin-left:0px;
+font-size:16px;
+
+
+*/
