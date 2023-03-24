@@ -32,7 +32,7 @@ const Portfolio = () => {
 
 		//on clone la première image pour donner l'illusion d'un carousel
 		var clone = slide_container.firstElementChild.cloneNode(true);
-		slide_container.appendChild(clone);
+		if(isTabletteOuMoins){slide_container.appendChild(clone);};
 		
 		//On indique la largeur du grand rectangle qui contient tous les slides en fonction du nombre de slides (si on est sur desktop ou moins)
 		slide_container.style.width = isTabletteOuMoins
