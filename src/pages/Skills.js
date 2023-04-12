@@ -6,7 +6,6 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import nodejs from '../assets/nodejs.png';
 import mongodb from '../assets/mdb.webp';
-import { useEffect } from 'react';
 import Defilement from '../components/Defilement';
 
 
