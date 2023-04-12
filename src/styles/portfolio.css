@@ -17,14 +17,14 @@
 
 
 
-.portfolio .projets article img {
+ .slide_container article img {
     width:100%;
 	height: 100%;
 	filter: brightness(0.89);
 	border-radius: 3px;
 }
 
-.portfolio .projets article {
+ .portfolio .slide_container article {
 	background-color: white;
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
@@ -39,18 +39,18 @@
 	border: 1px solid #d9dce2;
 }
 
-.portfolio .projets:hover article{
+ .portfolio.slide_container:hover article{
 	
-	filter:blur(4px);
+	filter:blur(4px); 
 	transform: scale(0.8);
 
 }
 
-.portfolio .projets article:hover {
+ .portfolio .slide_container article:hover {
 	filter:blur(0px);
 }
 
-.portfolio .projets {
+ .slide_container {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -58,12 +58,13 @@
 	height: 100%;
 }
 
-.portfolio a {
+.diapo a {
 	margin: 10px;
 	animation-name:portfolio;
 	animation-duration:400ms;
 	animation-fill-mode: forwards;
     opacity:0;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
 @keyframes portfolio{
@@ -77,11 +78,11 @@
 	}
 }
 
-.portfolio .projets article:hover {
+.portfolio .slide_container article:hover {
 	transform: scale(1.1);
 }
 
-.portfolio .projets a {
+.portfolio .slide_container a {
 	text-decoration: none;
 	color: inherit;
 	font-weight: 600;
@@ -91,34 +92,38 @@
 	display:none;
 }
 
+.portfolio .fa-solid{
+	padding: 30px;
+}
+
 @media Screen and (max-width:1032px){
-	.portfolio .projets:hover article{
+	.portfolio .slide_container:hover article{
 		filter:blur(0px);
 		transform: scale(1);
 	}
-	.portfolio .projets article:hover{
+	.portfolio .slide_container article:hover{
 		filter:blur(0px);
 		transform: scale(1);
 	}
 	.portfolio .portfolio_container {
 		width: 100%;
 	}
-	.portfolio .projets{
+	.portfolio .slide_container{
 		flex-wrap:nowrap;
 	}
-	.portfolio .projets article{
+	.portfolio .slide_container article{
 		width:100%;
 		height:100%;
 		margin:0px;
 		padding:0px;
 	}
 
-	.portfolio .projets a{
+	.portfolio .slide_container a{
 		width:80vw;
 		height:300px;
 		margin:0px;
 	}
-	.diapo{
+	.portfolio .diapo{
 		position:relative;
 		width:80vw;
 		height:300px;
@@ -130,6 +135,7 @@
 		top:50%;
 		color: #1b6535;
 		font-size:30px;
+		
 	}
 	.portfolio .fa-caret-left{
 		left:5px;

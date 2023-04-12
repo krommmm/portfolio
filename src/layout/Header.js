@@ -2,13 +2,7 @@ import { NavLink } from 'react-router-dom';
 import '../styles/index.css';
 import React from 'react';
 
-
-
 const Header = () => {
-	
-
-
-
 	return (
 		<>
 			<div className="header">
@@ -43,9 +37,8 @@ const Header = () => {
 						isActive ? 'activeLink' : 'undefined'
 					}
 				>
-					Contact 
+					Contact
 				</NavLink>
-				
 			</div>
 		</>
 	);
