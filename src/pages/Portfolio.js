@@ -89,7 +89,7 @@ const Portfolio = () => {
 		{meteo:"https://serene-jelly-c73543.netlify.app/"},
 		{minuteur: "https://dynamic-griffin-4415a4.netlify.app/"},
 		{morpion:"https://delicate-sherbet-560c87.netlify.app/"},
-		{netflix:"https://app.netlify.com/sites/idyllic-brigadeiros-32ba95"},
+		{netflix:"https://idyllic-brigadeiros-32ba95.netlify.app/"},
 		{pokedex:"https://delicate-kelpie-a58dd8.netlify.app/"},
 		{ppc:"https://stellar-hamster-fbfad2.netlify.app/"},
 		{saveTheme:"https://benevolent-cranachan-71b69d.netlify.app/"},
