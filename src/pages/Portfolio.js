@@ -72,7 +72,7 @@ const Portfolio = () => {
 		{la_panthere: "https://lapantheretb.netlify.app/"},
 		{kanap: "https://github.com/krommmm/kanap"},
 		{piquantes: "https://github.com/krommmm/piiquantes"},
-		{groupomania: "http://13.38.54.185:3000/"},
+		{groupomania: "https://github.com/krommmm/groupomania"},
 		{vin: "https://feteduvin.netlify.app/"},
 		{gw: "https://clonegamesworkshop.netlify.app/"},
 		{kasa: "https://kasatb.netlify.app/"},
