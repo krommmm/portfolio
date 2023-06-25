@@ -30,6 +30,7 @@ import saveTheme from '../assets/projets/saveTheme.png';
 import scrollInfini from '../assets/projets/scrollInfini.png';
 import todoList from '../assets/projets/todoList.png';
 import tva from '../assets/projets/tva.png';
+import shoppingList from "../assets/projets/shoppingList.png";
 
 
 const Portfolio = () => {
@@ -63,7 +64,8 @@ const Portfolio = () => {
 		{saveTheme:saveTheme},
 		{scrollInfini:scrollInfini},
 		{todoList:todoList},
-		{tva:tva}
+		{tva:tva},
+		{shoppingList: shoppingList}
 	];
 
 	const urls = [
@@ -95,7 +97,8 @@ const Portfolio = () => {
 		{saveTheme:"https://benevolent-cranachan-71b69d.netlify.app/"},
 		{scrollInfini:"https://helpful-frangipane-7ca1f4.netlify.app/"},
 		{todoList:"https://effortless-banoffee-37ca0b.netlify.app/"},
-		{tva:"https://thriving-souffle-7e520e.netlify.app/"}
+		{tva:"https://thriving-souffle-7e520e.netlify.app/"},
+		{shoppingList: "https://ubiquitous-torte-ee76b1.netlify.app/"}
 	];
 
 	const texte = [
@@ -127,7 +130,8 @@ const Portfolio = () => {
 		{saveTheme:"Sauver un thème"},
 		{scrollInfini: "Scroll infini"},
 		{todoList: "Todo list"},
-		{tva: "Calcul de la tva"}
+		{tva: "Calcul de la tva"},
+		{shoppingList: "Shopping List"}
 	];
 
 	const [isTabletteOuMoins, setIsTabletteOuMoins] = useState(false);
