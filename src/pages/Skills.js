@@ -76,7 +76,7 @@ const Skills = () => {
 				</div>
 				<div className="skills_right">
 					<div className="skills_container">
-						<h2 className="titlePage">What i do </h2>
+						<h2 className="titlePage">What I do </h2>
 
 						<Defilement images={images} urls={urls} texte={texte} />
 					</div>

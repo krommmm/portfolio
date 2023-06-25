@@ -12,7 +12,7 @@ const Contact = () => {
 						<p>thibault.boutaud@gmx.fr</p>
 
 						<i className="fa-brands fa-linkedin"></i>
-						<p>https://www.linkedin.com/feed/</p>
+						<p>https://fr.linkedin.com/in/thibault-boutaud-a72668234</p>
 
 						<i className="fa-brands fa-github"></i>
 						<p>https://github.com/krommmm</p>
