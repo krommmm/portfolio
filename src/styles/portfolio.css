@@ -22,6 +22,7 @@
 	height: 100%;
 	filter: brightness(0.89);
 	border-radius: 3px;
+	object-fit:contain;
 }
 
  .portfolio .slide_container article {
