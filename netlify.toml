@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/Portfolio"
-  to = "/Portfolio"
+  to = "/"
   status = 301
 
 [build]
