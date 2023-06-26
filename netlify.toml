@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/old-page"
-  to = "/new-page"
+  from = "/Portfolio"
+  to = "/"
   status = 301
 
 [build]
