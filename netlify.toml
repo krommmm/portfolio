@@ -4,13 +4,13 @@
   status = 301
 
 [[redirects]]
-   from = "/Portfolio"
+  from = "/Portfolio"
   to = "/Portfolio"
   status = 301
 
 [[redirects]]
-   from = "/Contact"
-  to = "/Contat"
+  from = "/Contact"
+  to = "/Contact"
   status = 301
 
 [build]
