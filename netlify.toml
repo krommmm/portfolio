@@ -3,11 +3,12 @@
   to = "/About"
   status = 301
 
+[[redirects]]
    from = "/Portfolio"
   to = "/Portfolio"
   status = 301
 
-
+[[redirects]]
    from = "/Contact"
   to = "/Contat"
   status = 301
