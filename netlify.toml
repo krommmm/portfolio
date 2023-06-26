@@ -1,16 +1,8 @@
-[[redirects]]
-  from = "/About"
-  to = "/About"
-  status = 301
+
 
 [[redirects]]
   from = "/Portfolio"
   to = "/Portfolio"
-  status = 301
-
-[[redirects]]
-  from = "/Contact"
-  to = "/Contact"
   status = 301
 
 [build]
