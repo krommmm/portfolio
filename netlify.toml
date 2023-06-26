@@ -1,5 +1,3 @@
-
-
 [[redirects]]
   from = "/Portfolio"
   to = "/Portfolio"
@@ -8,3 +6,5 @@
 [build]
   command = "npm run build"
   publish = "build"
+
+
