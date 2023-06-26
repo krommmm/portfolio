@@ -1,6 +1,15 @@
 [[redirects]]
-  from = "/Portfolio"
-  to = "/"
+  from = "/About"
+  to = "/About"
+  status = 301
+
+   from = "/Portfolio"
+  to = "/Portfolio"
+  status = 301
+
+
+   from = "/Contact"
+  to = "/Contat"
   status = 301
 
 [build]
