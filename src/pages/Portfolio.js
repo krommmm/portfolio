@@ -22,7 +22,6 @@ import justePrix from '../assets/projets/justePrix.png';
 import memory from '../assets/projets/memoryCard.png';
 import meteo from '../assets/projets/meteo.png';
 import minuteur from '../assets/projets/minuteur.png';
-import morpion from '../assets/projets/morpion.png';
 import netflix from '../assets/projets/netflix.png';
 import pokedex from '../assets/projets/pokedex.png';
 import ppc from '../assets/projets/PPC.png';
@@ -57,7 +56,6 @@ const Portfolio = () => {
 		{memory:memory},
 		{meteo:meteo},
 		{minuteur:minuteur},
-		{morpion: morpion},
 		{netflix:netflix},
 		{pokedex:pokedex},
 		{ppc:ppc},
@@ -90,7 +88,6 @@ const Portfolio = () => {
 		{memory:"https://cute-kashata-0e8671.netlify.app/"},
 		{meteo:"https://serene-jelly-c73543.netlify.app/"},
 		{minuteur: "https://dynamic-griffin-4415a4.netlify.app/"},
-		{morpion:"https://delicate-sherbet-560c87.netlify.app/"},
 		{netflix:"https://idyllic-brigadeiros-32ba95.netlify.app/"},
 		{pokedex:"https://delicate-kelpie-a58dd8.netlify.app/"},
 		{ppc:"https://stellar-hamster-fbfad2.netlify.app/"},
@@ -123,7 +120,6 @@ const Portfolio = () => {
 		{memory: "Jeu de mémoire"},
 		{meteo: "Météo"},
 		{minuteur: "Minuteur"},
-		{morpion: "Jeu du morpion"},
 		{netflix:"Clone netflix"},
 		{pokedex: "Pokedex"},
 		{ppc: "Pierre papier ciseaux"},
