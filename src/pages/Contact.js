@@ -18,7 +18,9 @@ const Contact = () => {
 						</a>
 
 						<i className="fa-brands fa-github"></i>
-						<p>https://github.com/krommmm</p>
+						<a href="https://github.com/krommmm">
+						<p>github</p>
+						</a>
 					</div>
 				</div>
 			</div>
