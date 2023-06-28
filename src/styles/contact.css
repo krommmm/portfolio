@@ -39,6 +39,10 @@
     align-items: center;
 	margin-top: 5%;
 }
+.contact_container a {
+	color: inherit;
+	text-decoration:none;
+}
 
 .contact .contact_container i{
    margin:10px;
