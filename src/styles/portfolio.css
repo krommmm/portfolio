@@ -22,7 +22,7 @@
 	height: 100%;
 	filter: brightness(0.89);
 	border-radius: 3px;
-	object-fit:contain;
+	object-fit:cover;
 }
 
  .portfolio .slide_container article {
@@ -157,6 +157,15 @@
 @media screen and (max-width: 600px) {
 	.portfolio {
 		padding: 16px;
+	}
+
+	.portfolio i{
+		border-radius: 50%;
+		background-color: rgba(0,0,0,0.2);
+		cursor:pointer;
+	}
+	.portfolio .fa-solid{
+		padding: 12px;
 	}
 
 }
