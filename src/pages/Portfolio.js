@@ -30,6 +30,7 @@ import scrollInfini from '../assets/projets/scrollInfini.png';
 import todoList from '../assets/projets/todoList.png';
 import tva from '../assets/projets/tva.png';
 import shoppingList from "../assets/projets/shoppingList.png";
+import envieBretonne from "../assets/projets/envie.png";
 
 
 const Portfolio = () => {
@@ -63,7 +64,8 @@ const Portfolio = () => {
 		{scrollInfini:scrollInfini},
 		{todoList:todoList},
 		{tva:tva},
-		{shoppingList: shoppingList}
+		{shoppingList: shoppingList},
+		{envieBretonne:envieBretonne}
 	];
 
 	const urls = [
