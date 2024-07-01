@@ -81,7 +81,7 @@ const Skills = () => {
 									<h3>Un développeur web passionné</h3>
 									<div className="texte">
 										<p>
-											Développeur web 
+											Développeur web
 											passionné, je souhaiterai acquérir de nouvelles expériences professionnelles afin d'enrichir mes compétences et
 											contribuer au développement des
 											projets de l'entreprise.
@@ -150,39 +150,25 @@ const Skills = () => {
 								<div className={isDark ? 'fr' : 'uk'}>
 									<h3>Expérience en développement</h3>
 									<div className="texte">
-										<p>
-											Du site vitrine, en passant par des
-											applications comme 
-											l'e-commerce, la réservation, la
-											mise en place d'API sécurisées.
-										</p>
-										<p>
-											Mon engagement envers l'excellence
-											technique garantit la réalisation
-											réussie de projets variés, alignés
-											sur les exigences spécifiques de
-											chaque domaine d'activité.
-										</p>
+										<p>Ma maîtrise de la POO et de la PF me permet de créer des applications modulaires, réutilisables et faciles à maintenir. J'ai travaillé avec des langages comme js et php, appliquant des concepts avancés comme l'héritage, le polymorphisme et les fonctions pures.</p>
+										<p>En PHP, j'ai développé de nombreuses applications web en utilisant le modèle MVC ce qui m'a permis de structurer le code de manière claire et maintenable. J'ai également conçu et implémenté des API RESTful, facilitant une communication efficace entre les services.</p>
+										<p>Avec Node.js et Express, j'ai construit des applications serveur performantes et évolutives. Ma gestion des routes, des middlewares et des requêtes HTTP avec Express m'a permis de créer des API RESTful et des applications web en temps réel.</p>
+										<p>J'ai une expérience pratique dans la gestion et le déploiement d'applications sur des serveurs mutualisés, optimisant les performances et la sécurité. De plus, j'ai administré des SPV, assurant des solutions performantes et sécurisées.</p>
+										<p>Je code souvent en vanilla, mais j'ai également réalisé plusieurs projets avec React. J'ai développé des interfaces utilisateur dynamiques et réactives, en utilisant les composants, les hooks et Redux pour la gestion d'état. L'intégration des API et l'optimisation des performances sont également au cœur de mon travail.</p>
+										<p>Enfin, j'adhère fermement aux principes SOLID et aux pratiques de Clean Code. Je suis convaincu que la lisibilité et la simplicité du code sont essentielles pour une maintenance à long terme et une collaboration efficace en équipe.</p>
+								
 									</div>
 								</div>
 								<div className={isDark ? 'uk' : 'fr'}>
 									<h3>Development Experience</h3>
 									<div className="texte">
-										<p>
-											From showcase websites to more
-											complex projects such as e-commerce,
-											reservations, implementation of
-											secure APIs, and the development of
-											custom applications.
-										</p>
-										<p>
-											My commitment to technical
-											excellence ensures the successful
-											completion of diverse projects,
-											aligned with the specific
-											requirements of each business
-											domain.
-										</p>
+										<p>My mastery of OOP and FP allows me to create modular, reusable, and maintainable applications. I have worked with languages like JavaScript and PHP, applying advanced concepts such as inheritance, polymorphism, and pure functions.</p>
+										<p>In PHP, I have developed numerous web applications using the MVC model, which has allowed me to structure the code in a clear and maintainable way. I have also designed and implemented RESTful APIs, facilitating effective communication between services.</p>
+										<p>With Node.js and Express, I have built high-performance and scalable server applications. My management of routes, middleware, and HTTP requests with Express has enabled me to create RESTful APIs and real-time web applications.</p>
+										<p>I have practical experience in managing and deploying applications on shared servers, optimizing performance and security. Additionally, I have administered VPS, ensuring high-performing and secure solutions.</p>
+										<p>I often code in vanilla, but I have also completed several projects with React. I have developed dynamic and responsive user interfaces using components, hooks, and Redux for state management. API integration and performance optimization are also at the core of my work.</p>
+										<p>Finally, I firmly adhere to SOLID principles and Clean Code practices. I believe that code readability and simplicity are essential for long-term maintenance and effective team collaboration.</p>
+
 									</div>
 								</div>
 							</div>
