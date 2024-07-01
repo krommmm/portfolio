@@ -1,6 +1,5 @@
 .skills {
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -244,8 +243,10 @@
 		min-width: 300px;
 	}
 
-	body .skills h2 {
-		font-size: 34px;
+	body .skills h2, body .portfolio h2, body .contact h2 {
+		margin: 50px auto;
+		font-size: 22px;
+		max-width: 60%;
 	}
 }
 

@@ -9,7 +9,7 @@
 .contact i {}
 
 .contact {
-	margin-top: 50px;
+
 }
 
 .contact_container {
@@ -282,9 +282,7 @@ body .contact .restModal .purple {
 		font-size: 15px;
 	}
 
-	body .contact h2 {
-		font-size: 39px;
-	}
+
 
 	body .thingsContact .thingContact {
 		width: 310px;
