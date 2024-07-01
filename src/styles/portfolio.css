@@ -185,23 +185,19 @@
 }
 
 .portfolio .modal_content .h2TitreModal {
-	font-size: 30px !important;
+	font-size: 30px;
 	padding-top: 10px;
 	text-transform: capitalize;
 }
 
-@media screen and (max-width:574px) {
-	body .portfolio .modal_content .h2TitreModal {
-		font-size: 30px !important;
-	}
-}
+
 
 .miniatureModal {
 	width: 8rem;
 	height: 8rem;
 	border-radius: 50%;
 	position: absolute;
-	top: 56%;
+	top: 66%;
 	border: 3px solid white;
 	transform: scale(0);
 	animation-name: growUp;
@@ -261,7 +257,7 @@
 .portfolio .modal_content a {}
 
 .portfolio .modal_content h2 {
-	font-size: 14px !important;
+	font-size: 14px;
 	display: flex;
 	margin: 0px;
 	margin-bottom: 0px;
@@ -807,7 +803,7 @@
 	}
 
 	body .portfolio .titre_modal {
-		height: 75px;
+		height: 88px;
 	}
 
 	body .portfolio .restModal p {
