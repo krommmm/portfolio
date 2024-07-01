@@ -1,0 +1,183 @@
+header{
+	display:flex;
+	flex-direction:column;
+	background-color: rgb(239,239,244);
+}
+.headerTop{
+	background-color:#3B5998;
+	width:100%;
+	padding: 5px 0px;
+}
+
+.header {
+	display: flex;
+	font-family: 'Lora', serif;
+	padding: 20px 0px 0px 0px;
+	margin-top: 20px;
+	position: relative;
+	justify-content: center;
+	transition-timing-function: ease-in;
+	overflow: hidden;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.nav__black {
+	backdrop-filter: blur(10px);
+	transition-timing-function: ease-in;
+	background-color: rgba(0, 0, 0, .3)
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	/* background-color: #111; */
+	z-index: 50;
+	transition-timing-function: ease-in;
+
+	color: inherit;
+	overflow: hidden;
+}
+
+.header a {
+	text-decoration: none;
+	padding: 6px;
+	color: inherit;
+	font-weight: 600;
+	font-size: 14px;
+	margin-right: 3px;
+	background-color: rgb(216, 223, 234);
+	color: rgba(59, 89, 152);
+	padding: 12px;
+}
+
+.header a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #627AAD;
+}
+
+.activeLink {
+	background-color:white!important;
+	color:black!important;
+}
+
+.header img {
+	border-radius: 50%;
+	border: 2px solid white;
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+}
+
+
+
+.fa-moon,
+.fa-sun {
+	font-size: 25px;
+}
+
+.fa-moon {
+	padding: 15px;
+	border: 1px solid white;
+	border-radius: 50%;
+	position: absolute;
+
+	right: 10px;
+
+	background-color: black;
+	color: yellow;
+}
+
+.fa-sun {
+	padding: 15px;
+	position: absolute;
+	color: orange;
+	right: 10px;
+}
+
+.fr_flag,
+.uk_flag {
+	margin: 5px;
+	cursor: pointer;
+	margin-left: 50px;
+	border: 4px double white;
+	/* border: 2px solid #fff; */
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	object-fit: cover;
+}
+
+.fr {
+	display: none;
+}
+
+.fr:hover {
+	/* animation-name: socialLinks;
+	animation-duration: 0.2s; */
+}
+
+.uk {
+	display: inline-block;
+}
+
+#contact {
+	margin-right: 5px;
+}
+
+#contact:hover {
+	/* animation-name: socialLinks;
+	animation-duration: 0.2s; */
+}
+
+@media screen and (max-width: 1291px) {
+	a {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header a {
+		font-size: 10px;
+	}
+
+	.fa-sun,
+	.fa-moon {
+		font-size: 15px;
+	}
+
+	.header a {
+		margin-left: 15px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	body .header a {
+		text-decoration: none;
+		padding: 5px;
+		margin-left: 0px;
+		font-size: 14px;
+	}
+
+	body .fr_flag,
+	body .uk_flag {
+		margin: 0px;
+		width: 20px;
+		height: 20px;
+	}
+
+	body .header a {
+		height: 16px;
+	}
+}
+
+/*
+margin-left:0px; 
+font-size:16px;
+
+
+*/

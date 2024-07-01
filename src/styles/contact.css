@@ -1,0 +1,297 @@
+.contact p {
+	margin: 0px;
+	line-height: 19px;
+	font-size: 12px;
+}
+
+.contact h2 {}
+
+.contact i {}
+
+.contact {
+	margin-top: 50px;
+}
+
+.contact_container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact h2 {
+	color: black;
+	font-size: 20px;
+	margin: 50px 0px;
+}
+
+.contact .thingsContact {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 70%;
+}
+
+.contact .email,
+.contact .phone {
+	display: flex;
+}
+
+.contact .email,
+.contact .phone p {
+	padding: 5px;
+}
+
+.thingsContact .thingContact {
+	margin: 7px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border: 1px solid black;
+
+	border-radius: 10px;
+
+	padding: 10px;
+
+	width: 300px;
+	height: 150px;
+}
+
+
+.thingsContact .thingContact img {
+	width: 100px;
+}
+
+.thingsContact .thingContact h3 {
+	font-size: 21px;
+	margin-left: 18px;
+}
+
+.thingsContact .thingContact p {
+	font-size: 15px;
+}
+
+.btn-contact {
+	border-color: #26446E #152F5F #0C2253;
+	color: #FFFFFF;
+	text-shadow: 0 1px 0 #3E5A88;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 6px 12px 6px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #5F78AB;
+	border: 1px solid #888888;
+}
+
+.btn-contact:active {
+	transform: scaleX(0.8);
+}
+
+/* Contact Modal  */
+
+.contact .modal {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	backdrop-filter: blur(10px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	/* display: none; */
+}
+
+.contact .hide {
+	display: none;
+}
+
+.contact .modal_content {
+	animation-name: modal_content_contact;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	position: relative;
+	background-color: white;
+	color: black;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 30px;
+	border: 1px solid black;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0 10px 13px -7px #000, 5px 5px 15px 5px transparent;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 50px;
+	max-width: 640px;
+}
+
+@keyframes modal_content_contact {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.contact .modal_content .h2TitreModal {
+	font-size: 20px;
+	padding: 9px 18px;
+}
+
+.contact .restModal {
+	padding: 10px;
+	display: flex;
+
+}
+
+body .contact .restModal p {
+	color: black;
+}
+
+.titre_modal i {
+	font-size: 18px;
+	margin-left: 27px;
+}
+
+.contact .restModal p {
+	font-size: 15px;
+}
+
+body .contact .restModal .purple {
+	color: purple;
+}
+
+.contact .restModal i {
+	color: black;
+	font-size: 40px;
+	padding: 15px;
+	margin-right: 10px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.contact .restModal .description {
+	font-size: 12px;
+	color: black;
+	max-width: 92%;
+	padding-left: 12px;
+}
+
+.contact .modal_content a {}
+
+.contact .modal_content h2 {
+	font-size: 18px;
+	font-weight: 700;
+	max-width: 400px;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contact .image_modal {
+	width: 200px;
+	height: 200px;
+
+	-webkit-box-shadow: 0px 10px 13px -7px #000000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.contact .titre_modal {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px !important;
+	display: flex;
+	margin: 0px;
+	margin-bottom: 0px;
+	color: black;
+	background: #ECEFF5 none repeat scroll 0 0;
+	border-top: 0 none;
+	display: block;
+	font-size: 11px;
+	margin-bottom: 5px;
+	padding: 5px 0px 0px 0px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.contact .close {
+	color: #aaa;
+	cursor: pointer;
+	margin: 0px;
+	border-radius: 50%;
+	transition-duration: 0.2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 50%;
+	z-index: 999999;
+}
+
+.contact .close:active {
+	transform: scaleX(0.5);
+	opacity: 0.8;
+}
+
+
+
+.contact.cliquable {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 808px) {
+	body .contact .modal_content {
+		width: 80%;
+	}
+
+	body .thingsContact .thingContact h3 {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	body .contact .modal_content .h2TitreModal {
+		font-size: 30px;
+	}
+
+	body .contact h2 {
+		font-size: 39px;
+	}
+
+	body .thingsContact .thingContact {
+		width: 310px;
+		height: 150px;
+	}
+
+	body .contact .thingsContact {
+		width: 90%;
+	}
+}

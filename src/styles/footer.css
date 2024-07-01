@@ -1,0 +1,44 @@
+.footer {
+	display: flex;
+	align-items: center;
+    justify-content:space-between;
+	line-height: 0px;
+	margin: 0px;
+	font-family: 'Lora', serif;
+    bottom: 0%;
+    width: 100%;
+    padding: 0px;
+    border-top: 1px solid #DDDDDD;
+}
+
+.footer p {
+	font-size: 12px;
+    line-height:8px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+.me{
+    padding: 20px;
+}
+.socialLinks{
+    font-size:20px;
+    padding: 15px;
+    margin-right: 15px;
+}
+.socialLinks:hover{
+    animation-name:socialLinks;
+    animation-duration:0.2s;
+    cursor:pointer;
+}
+
+@keyframes socialLinks{
+    0%{
+        transform:scaleX(1);
+    }
+    100%{
+        transform:scaleX(0.8);
+    }
+}
+.socialLinks_container .socialLinks{
+    padding: 10px;
+}
+

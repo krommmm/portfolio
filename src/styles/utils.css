@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'barlow_condensed';
+	src: url('../assets/fonts/BarlowCondensed-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'mandalore';
+	src: url('../assets/fonts/mandalore.ttf');
+}
+
+@font-face {
+	font-family: 'roboto_thin';
+	src: url('../assets/fonts/Roboto-Thin.ttf');
+}
+
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Lora', serif;
+	color: black;
+}
+
+.home,
+.skills,
+.contact,
+.portfolio {
+	flex: 1;
+	width: 100%;
+	margin: auto;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.titlePage {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 30px;
+}
+
+.button {
+	border-color: #26446E #152F5F #0C2253;
+	color: #FFFFFF;
+	text-shadow: 0 1px 0 #3E5A88;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 6px 12px 6px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #5F78AB;
+	border: 1px solid #888888;
+}
+
+.button:hover {
+	cursor: pointer;
+	filter: brightness(1.1);
+
+	animation-duration: 0.2s;
+}
+
+/* 
+#home:hover {
+	/* animation-name: socialLinks;
+	animation-duration: 0.2s; 
+}
+#skills:hover {
+	animation-name: socialLinks;
+	animation-duration: 0.2s;
+}
+#project:hover {
+	animation-name: socialLinks;
+	animation-duration: 0.2s;
+}
+#contact:hover {
+	animation-name: socialLinks;
+	animation-duration: 0.2s;
+}
+.fr_flag:hover {
+	animation-name: socialLinks;
+	animation-duration: 0.2s;
+}
+
+.button:hover {
+	background-position: left;
+	color: white;
+}
+
+.button:active {
+	transform: scaleX(0.9); 
+	opacity: 0.8;
+}
+ */
+
+
+.gras {
+	color: #666;
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+
+.green {}
