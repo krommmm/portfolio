@@ -279,7 +279,7 @@ body .contact .restModal .purple {
 
 @media screen and (max-width: 450px) {
 	body .contact .modal_content .h2TitreModal {
-		font-size: 30px;
+		font-size: 15px;
 	}
 
 	body .contact h2 {
@@ -294,4 +294,5 @@ body .contact .restModal .purple {
 	body .contact .thingsContact {
 		width: 90%;
 	}
+	
 }
