@@ -119,10 +119,10 @@ const Portfolio = () => {
 					github: 'https://github.com/krommmm/trendtangle.git',
 					url: 'https://trendtangle.netlify.app/',
 					isSiteWebActive: true,
-					infoFr: `Application e-commerce avec utilisateur et administrateur `,
-					infoUk: `E-commerce application with users and administrators.`,
+					infoFr: `Cette application e-commerce propose un service d'authentification permettant de distinguer les administrateurs, les membres inscrits et les simples visiteurs. Elle intègre des fonctionnalités de likes, des opérations CRUD sur les articles et les catégories, la configuration et la gestion des promotions ainsi que des offres limitées dans le temps. De plus, elle permet la gestion d'un panier d'achat et offre une fonctionnalité de recherche avancée pour trouver des produits. Le serveur, développé en PHP, fonctionne comme une API RESTful, tandis que le frontend utilise React avec des composants, des hooks et des remontées d'état.`,
+					infoUk: `This e-commerce application offers an authentication service that distinguishes between administrators, registered members, and casual visitors. It includes features such as likes, CRUD operations on articles and categories, the configuration and management of promotions, as well as time-limited offers. Additionally, it allows for shopping cart management and provides an advanced search feature to find products. The server, developed in PHP, operates as a RESTful API, while the frontend uses React with components, hooks, and state lifting.`,
 				},
-				texte: ['HTML', 'CSS', 'JS', 'react', 'PHP'],
+				texte: ['HTML', 'CSS', 'JS', 'REACT', 'PHP'],
 			},
 			{
 				nomDuProjet: 'kasa',

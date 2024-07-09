@@ -29,7 +29,7 @@
 	margin-left: 0px;
 }
 
-.bouton_presentation {}
+
 
 .bouton_presentation:hover {
 	filter: brightness(1.1);
@@ -189,8 +189,6 @@
 	padding-top: 10px;
 	text-transform: capitalize;
 }
-
-
 
 .miniatureModal {
 	width: 8rem;
