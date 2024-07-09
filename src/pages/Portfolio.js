@@ -33,7 +33,7 @@ const Portfolio = () => {
 	useEffect(() => {
 		const newData = [
 			{
-				nomDuProjet: 'cuisine',
+				nomDuProjet: 'Site de recette de cuisine',
 				details: {
 					nameFr: 'Creation et recherche de recettes',
 					nameUk: 'Create & research recipes',
@@ -57,7 +57,7 @@ const Portfolio = () => {
 				texte: ['REACT', 'API MERN', 'VPS', 'LINUX'],
 			},
 			{
-				nomDuProjet: 'game workshops',
+				nomDuProjet: `Integration web`,
 				details: {
 					nameFr: ' clone gameworkshop',
 					nameUk: "gameworkshop's clone",
@@ -109,7 +109,7 @@ const Portfolio = () => {
 			// 	texte: ['HTML', 'CSS', 'JS', 'WEBPACK'],
 			// },
 			{
-				nomDuProjet: 'trendtangle',
+				nomDuProjet: 'Application e-commerce React',
 				details: {
 					nameFr: 'Trendtangle',
 					nameUk: 'Trendtangle',
@@ -145,7 +145,7 @@ const Portfolio = () => {
 				texte: ['react'],
 			},
 			{
-				nomDuProjet: 'cocktailExpress',
+				nomDuProjet: 'Application e-commerce PF',
 				details: {
 					nameFr: 'Site e-commerce',
 					nameUk: 'E-commerce web site',
@@ -161,7 +161,7 @@ const Portfolio = () => {
 				texte: ['JS', 'STORAGE', 'php', 'webpack'],
 			},
 			{
-				nomDuProjet: 'groupomania',
+				nomDuProjet: 'Blog',
 				details: {
 					nameFr: 'Groupomania',
 					nameUk: 'Groupomania',
@@ -181,7 +181,7 @@ const Portfolio = () => {
 				texte: ['REACT', 'API MERN'],
 			},
 			{
-				nomDuProjet: 'todoMulti',
+				nomDuProjet: 'Agenda pour liste de tâche',
 				details: {
 					nameFr: 'Todo list',
 					nameUk: 'Todo list',
@@ -205,7 +205,7 @@ const Portfolio = () => {
 				texte: ['HTML', 'CSS', 'JS', 'Webpack'],
 			},
 			{
-				nomDuProjet: 'booking',
+				nomDuProjet: 'Application de réservation',
 				details: {
 					nameFr: 'Booking',
 					nameUk: 'Booking',
@@ -221,7 +221,7 @@ const Portfolio = () => {
 				texte: ['JS', 'WebPack', 'Babel', 'Jest'],
 			},
 			{
-				nomDuProjet: 'boxRevision',
+				nomDuProjet: 'Application de flashCards',
 				details: {
 					nameFr: 'Creation de cartes mémoires',
 					nameUk: 'Create flash cards',
@@ -241,9 +241,9 @@ const Portfolio = () => {
 		];
 
 		const getNewArray = (numero) => {
-			let data1 = ['todoMulti', 'trendtangle', 'cocktailExpress'];
-			let data2 = ['booking', 'boxRevision', 'game workshops'];
-			let data3 = ['cuisine', 'groupomania', 'trieuse de film'];
+			let data1 = ['Agenda pour liste de tâche', 'Application e-commerce React', 'Application e-commerce PF'];
+			let data2 = ['Application de réservation', 'Application de flashCards', 'Integration web'];
+			let data3 = ['Site de recette de cuisine', 'Blog', 'trieuse de film'];
 
 			let array;
 
