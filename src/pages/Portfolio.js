@@ -21,6 +21,7 @@ import dBooking from '../assets/projets/dBooking.png';
 import todoMulti from '../assets/projets/todoList.PNG';
 import trendTangle from "../assets/projets/trendtangle.png";
 import boxRevision from "../assets/projets/boxRevision.png";
+import game_memo from "../assets/projets/game_memo.png";
 
 const Portfolio = () => {
 	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
@@ -144,21 +145,37 @@ const Portfolio = () => {
 				},
 				texte: ['react'],
 			},
+			// {
+			// 	nomDuProjet: 'Application e-commerce PF',
+			// 	details: {
+			// 		nameFr: 'Site e-commerce',
+			// 		nameUk: 'E-commerce web site',
+			// 		descriptionFr: 'Application e-commerce',
+			// 		descriptionUk: 'App e-commerce',
+			// 		images: { net: cocktailExpress, dark: dShoppingList },
+			// 		github: 'https://github.com/krommmm/app_PF_e-commerce_cocktailExpress.git',
+			// 		url: 'https://cocktailsexpress.netlify.app',
+			// 		isSiteWebActive: true,
+			// 		infoFr: "Un serveur php stocke les articles. Les articles sont ajoutables dans un panier avec des opérations CRUD, comprenant le calcul des prix et des quantités. Les produits sont affichés dynamiquement à l'aide de requêtes HTTP et d'URLs. Le panier est une clé dans le localStorage. L'architecture est découpée en modules (fonctions, requêtes, index).",
+			// 		infoUk: 'php server stores articles. Articles can be added to a cart with CRUD operations, including price and quantity calculations. Products are dynamically displayed using HTTP requests and URLs. The cart is a key in the localStorage. The architecture is divided into modules (functions, requests, index).',
+			// 	},
+			// 	texte: ['JS', 'STORAGE', 'php', 'webpack'],
+			// },
 			{
-				nomDuProjet: 'Application e-commerce PF',
+				nomDuProjet: 'Memory_cards',
 				details: {
-					nameFr: 'Site e-commerce',
-					nameUk: 'E-commerce web site',
-					descriptionFr: 'Application e-commerce',
-					descriptionUk: 'App e-commerce',
-					images: { net: cocktailExpress, dark: dShoppingList },
-					github: 'https://github.com/krommmm/app_PF_e-commerce_cocktailExpress.git',
-					url: 'https://cocktailsexpress.netlify.app',
+					nameFr: 'Jeu de carte mémoire',
+					nameUk: 'Memory card game',
+					descriptionFr: 'Jeu de carte mémoire',
+					descriptionUk: 'Memory card game',
+					images: { net: game_memo, dark: game_memo },
+					github: 'https://github.com/krommmm/jeu_memoryCards.git',
+					url: 'https://cute-kashata-0e8671.netlify.app/',
 					isSiteWebActive: true,
-					infoFr: "Un serveur php stocke les articles. Les articles sont ajoutables dans un panier avec des opérations CRUD, comprenant le calcul des prix et des quantités. Les produits sont affichés dynamiquement à l'aide de requêtes HTTP et d'URLs. Le panier est une clé dans le localStorage. L'architecture est découpée en modules (fonctions, requêtes, index).",
-					infoUk: 'php server stores articles. Articles can be added to a cart with CRUD operations, including price and quantity calculations. Products are dynamically displayed using HTTP requests and URLs. The cart is a key in the localStorage. The architecture is divided into modules (functions, requests, index).',
+					infoFr: "Jeu de carte mémoire écrit en procédurale.",
+					infoUk: 'Memory card game written in procedural style',
 				},
-				texte: ['JS', 'STORAGE', 'php', 'webpack'],
+				texte: ['JS', 'STORAGE', 'webpack'],
 			},
 			{
 				nomDuProjet: 'Blog',
@@ -241,7 +258,7 @@ const Portfolio = () => {
 		];
 
 		const getNewArray = (numero) => {
-			let data1 = ['Agenda pour liste de tâche', 'Application e-commerce React', 'Application e-commerce PF'];
+			let data1 = ['Agenda pour liste de tâche', 'Application e-commerce React', 'Memory_cards'];
 			let data2 = ['Application de réservation', 'Application de flashCards', 'Integration web'];
 			let data3 = ['Site de recette de cuisine', 'Blog', 'trieuse de film'];
 
