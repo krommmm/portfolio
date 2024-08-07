@@ -22,6 +22,7 @@ import todoMulti from '../assets/projets/todoList.PNG';
 import trendTangle from "../assets/projets/trendtangle.png";
 import boxRevision from "../assets/projets/boxRevision.png";
 import game_memo from "../assets/projets/game_memo.png";
+import memory_words from "../assets/projets/memory_words.png";
 
 const Portfolio = () => {
 	const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
@@ -178,6 +179,22 @@ const Portfolio = () => {
 				texte: ['JS', 'STORAGE', 'webpack'],
 			},
 			{
+				nomDuProjet: 'Learn english',
+				details: {
+					nameFr: "Application pour apprendre l'anglais",
+					nameUk: "Application to learn english",
+					descriptionFr: "Application pour apprendre l'anglais",
+					descriptionUk: "Application to learn english",
+					images: { net: memory_words, dark: memory_words },
+					github: 'https://github.com/krommmm/memory_words.git',
+					url: 'https://memorywords.netlify.app',
+					isSiteWebActive: true,
+					infoFr: "Application pour apprendre l'anglais écrit en js poo.",
+					infoUk: 'Application to learn english, written in js poo',
+				},
+				texte: ['JS', 'STORAGE', 'POO'],
+			},
+			{
 				nomDuProjet: 'Blog',
 				details: {
 					nameFr: 'Groupomania',
@@ -259,7 +276,7 @@ const Portfolio = () => {
 
 		const getNewArray = (numero) => {
 			let data1 = ['Agenda pour liste de tâche', 'Application e-commerce React', 'Memory_cards'];
-			let data2 = ['Application de réservation', 'Application de flashCards', 'Integration web'];
+			let data2 = ['Learn english', 'Application de flashCards', 'Integration web'];
 			let data3 = ['Site de recette de cuisine', 'Blog', 'trieuse de film'];
 
 			let array;
