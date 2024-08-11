@@ -21,7 +21,7 @@ import dBooking from '../assets/projets/dBooking.png';
 import todoMulti from '../assets/projets/todoList.PNG';
 import trendTangle from "../assets/projets/trendtangle.png";
 import boxRevision from "../assets/projets/boxRevision.png";
-import game_memo from "../assets/projets/game_memo.png";
+import sb from "../assets/projets/sb.png";
 import memory_words from "../assets/projets/memory_words.png";
 
 const Portfolio = () => {
@@ -163,20 +163,20 @@ const Portfolio = () => {
 			// 	texte: ['JS', 'STORAGE', 'php', 'webpack'],
 			// },
 			{
-				nomDuProjet: 'Memory_cards',
+				nomDuProjet: 'Location de terrains',
 				details: {
-					nameFr: 'Jeu de carte mémoire',
-					nameUk: 'Memory card game',
+					nameFr: 'Site web de location de terrains',
+					nameUk: 'Website for land rentals',
 					descriptionFr: 'Jeu de carte mémoire',
 					descriptionUk: 'Memory card game',
-					images: { net: game_memo, dark: game_memo },
+					images: { net: sb, dark: sb },
 					github: 'https://github.com/krommmm/jeu_memoryCards.git',
-					url: 'https://cute-kashata-0e8671.netlify.app/',
+					url: 'https://leshautsdesaintbenoit.fr/',
 					isSiteWebActive: true,
-					infoFr: "Jeu de carte mémoire écrit en procédurale.",
-					infoUk: 'Memory card game written in procedural style',
+					infoFr: "Site web réalisé en php mvc",
+					infoUk: "Website developed in PHP MVC",
 				},
-				texte: ['JS', 'STORAGE', 'webpack'],
+				texte: ['JS', 'PHP'],
 			},
 			{
 				nomDuProjet: 'Learn english',
@@ -275,7 +275,7 @@ const Portfolio = () => {
 		];
 
 		const getNewArray = (numero) => {
-			let data1 = ['Agenda pour liste de tâche', 'Application e-commerce React', 'Memory_cards'];
+			let data1 = ['Agenda pour liste de tâche', 'Application e-commerce React', 'Location de terrains'];
 			let data2 = ['Learn english', 'Application de flashCards', 'Integration web'];
 			let data3 = ['Site de recette de cuisine', 'Blog', 'trieuse de film'];
 
